@@ -46,6 +46,8 @@ import com.example.recyclerview.databinding.ActivityMainBinding
             newsArrayList.add(news)
         }
 
+        myRecyclerView.adapter = MyAdapter(newsArrayList,this)
+
 
 
     }
